@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "1Xp3xJCOaXH4MuK3tTzJ6qaeclatMUNTHoAyUI9K71gmF1Pjp4Rzri5hVXZXp1W7urSafDHbWGVJrEK/cgYPvg==",
+  "success": true,
+  "projectFilePath": "/Users/caiomartins/Projects/AbInbev/CrossCutting/CrossCutting.csproj",
+  "expectedPackageFiles": [
+    "/Users/caiomartins/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
+    "/Users/caiomartins/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
+    "/Users/caiomartins/.nuget/packages/microsoft.extensions.configuration/9.0.1/microsoft.extensions.configuration.9.0.1.nupkg.sha512",
+    "/Users/caiomartins/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.1/microsoft.extensions.configuration.abstractions.9.0.1.nupkg.sha512",
+    "/Users/caiomartins/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.1/microsoft.extensions.dependencyinjection.9.0.1.nupkg.sha512",
+    "/Users/caiomartins/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.1/microsoft.extensions.dependencyinjection.abstractions.9.0.1.nupkg.sha512",
+    "/Users/caiomartins/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/caiomartins/.nuget/packages/microsoft.extensions.primitives/9.0.1/microsoft.extensions.primitives.9.0.1.nupkg.sha512",
+    "/Users/caiomartins/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/Users/caiomartins/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
