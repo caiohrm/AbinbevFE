@@ -1,0 +1,164 @@
+/* Employer List Styles */
+.employer-list-container {
+    max-width: 100%;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .employer-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Faz a tabela ocupar a largura total */
+  }
+  
+  .employer-table th,
+  .employer-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .employer-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .employer-table td {
+    background-color: #fff;
+  }
+  
+  .employer-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Botões de ação na coluna de ações */
+  .action-btn {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .action-btn:hover {
+    opacity: 0.7;
+  }
+  
+  .edit-btn {
+    color: #4CAF50;
+  }
+  
+  .delete-btn {
+    color: #f44336;
+    margin-left: 10px;
+  }
+  
+  /* Paginação */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .page-btn {
+    padding: 8px 12px;
+    margin: 0 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .page-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .page-btn.active {
+    background-color: #0056b3;
+    font-weight: bold;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .employer-table th,
+    .employer-table td {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .action-btn {
+      font-size: 16px;
+    }
+  }
+/* Estilo geral para os botões de ação */
+button.action-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px; /* Aumenta o padding para aumentar a altura */
+    font-size: 18px; /* Tamanho de fonte para o ícone */
+    display: flex;
+    justify-content: center;  /* Centraliza o ícone dentro do botão */
+    align-items: center;      /* Alinha o ícone verticalmente */
+    height: 40px;             /* Aumenta a altura */
+    width: 40px;              /* Ajusta a largura */
+    border-radius: 5px;       /* Adiciona borda arredondada */
+  }
+  
+  /* Adiciona cor verde para editar */
+  button.edit-btn {
+    color: #4CAF50;
+  }
+  
+  /* Adiciona cor vermelha para excluir */
+  button.delete-btn {
+    color: #f44336;
+  }
+  
+  /* Estilo para os ícones dentro dos botões */
+  button i {
+    font-size: 20px;  /* Ajusta o tamanho do ícone */
+  }
+  
+  /* Efeito de hover */
+  button.action-btn:hover {
+    opacity: 0.8; /* Diminui a opacidade quando o botão for sobrevoado */
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Garantir que os botões fiquem ao lado no <td> */
+  td.action-buttons {
+    display: flex; /* Alinha os botões horizontalmente */
+    gap: 10px;     /* Espaçamento entre os botões */
+    justify-content: center; /* Opcional: centraliza os botões na célula */
+  }
+
+  /* Estilos para a barra de pesquisa */
+.search-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .search-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  .search-input:focus {
+    border-color: #007bff;
+  }
+  
+  
+  

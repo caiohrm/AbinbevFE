@@ -1,0 +1,206 @@
+/* Estilos globais */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container de Login e Dashboard (aplicado a ambos) */
+.container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+/* Título */
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Divs de input */
+div {
+  margin-bottom: 5px;
+}
+
+/* Labels */
+label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* Inputs e Select */
+input, select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Input/Select focus */
+input:focus, select:focus {
+  border-color: #007BFF;
+}
+
+/* Botão de submit */
+button {
+  padding: 12px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo da mensagem de erro */
+.error-message {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+  animation: shake 0.5s ease-out;
+  opacity: 100; /* Inicialmente invisível */
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Efeito de shake para a mensagem de erro */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+/* Tornar a mensagem de erro visível quando houver um erro */
+.error-message.visible {
+  opacity: 100;
+}
+
+/* Alerta de erro estilizado */
+.error-alert {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f44336; /* Cor de fundo vermelha */
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para efeito 3D */
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out; /* Efeito suave de transição */
+}
+
+.error-alert strong {
+  font-weight: bold;
+}
+
+/* Classe para o container de Dashboard (adiciona margens e outras propriedades) */
+.dashboard-container {
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  width: 100%; /* Formulário vai ocupar 50% da largura da tela */
+  height: 50%;
+  box-sizing: border-box;
+  padding-top: 40px;
+}
+
+/* Estilo para as mensagens de erro em cada campo */
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+/* Alerta de erro geral */
+.error-alert {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f44336; /* Cor de fundo vermelha */
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para efeito 3D */
+  opacity: 100;
+  transition: opacity 0.5s ease-in-out; /* Efeito suave de transição */
+}
+
+.error-alert strong {
+  font-weight: bold;
+}
+
+/* Ajuste para os campos do formulário ficarem lado a lado */
+.form-row {
+  display: flex;
+  justify-content: space-between; /* Para separar os campos com espaçamento */
+  gap: 20px; /* Espaçamento entre os campos */
+}
+
+/* Ajuste na largura dos campos */
+.form-row input,
+.form-row select {
+  width: 48%; /* Cada campo ocupará 48% da largura do contêiner */
+}
+
+.child {
+  flex-grow: 1;         /* As divs filhas crescem igualmente */
+  box-sizing: border-box;
+}
+
+.child input {
+  width: 100%;         /* Faz o input ocupar toda a largura disponível */
+  padding: 10px;       /* Adiciona padding para o input */
+  font-size: 16px;     /* Define o tamanho da fonte */
+  border-radius: 4px;  /* Bordas arredondadas */
+  border: 1px solid #ddd;  /* Borda do input */
+  outline: none;       /* Remove o outline */
+  box-sizing: border-box;  /* Garantir que o padding seja incluído no cálculo de largura */
+}
+
+.child select {
+  width: 100%;         /* Faz o input ocupar toda a largura disponível */
+  padding: 10px;       /* Adiciona padding para o input */
+  font-size: 16px;     /* Define o tamanho da fonte */
+  border-radius: 4px;  /* Bordas arredondadas */
+  border: 1px solid #ddd;  /* Borda do input */
+  outline: none;       /* Remove o outline */
+  box-sizing: border-box;  /* Garantir que o padding seja incluído no cálculo de largura */
+}
+
+/* Opcional: quando o input está em foco */
+.child input:focus {
+  border-color: #007BFF;
+}
+
+#root {
+  height: 100%;
+}
