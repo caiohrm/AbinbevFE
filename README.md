@@ -50,9 +50,5 @@ docker-compose -f docker-compose.prod.yml up --build
 2. Make your changes
 3. Submit a pull request
 
-## 📄 License
-
-This project is private and proprietary to AbInbev.
-
 ---
 ⭐ Don't forget to star this repository if you find it useful!
